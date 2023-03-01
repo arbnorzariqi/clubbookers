@@ -1,0 +1,52 @@
+<script type="application/ld+json">
+    {
+        "@context":"http://schema.org",
+        "@type":"Event",
+        "name":"Art Cafè",
+        "startDate":"2023-01-01",
+        "location": {
+        "@type": "Place",
+        "name": "Rome"
+        },
+        "subEvent":[
+        {
+            "@type":"Event",
+            "name":"Art Cafè Friday Event",
+            "startDate":"2023-01-01",
+            "location": {
+            "@type": "Place",
+            "name": "Rome"
+            },
+            "eventSchedule":{
+            "@type":"Schedule",
+            "startDate":"2023-01-01",
+            "endDate":"2023-12-31",
+            "repeatFrequency":"P1W",
+            "byDay":"http://schema.org/Friday",
+            "startTime":"00:00",
+            "endTime":"05:30",
+            "scheduleTimezone":"EU/Rome"
+            }
+        },
+        {
+            "@type":"Event",
+            "name":"Art Cafè Saturday Event",
+            "startDate":"2023-01-01",
+            "location": {
+            "@type": "Place",
+            "name": "Rome"
+            },
+            "eventSchedule":{
+            "@type":"Schedule",
+            "startDate":"2023-01-01",
+            "endDate":"2023-12-31",
+            "repeatFrequency":"P1W",
+            "byDay":"http://schema.org/Saturday",
+            "startTime":"00:00",
+            "endTime":"05:30",
+            "scheduleTimezone":"EU/Rome"
+            }               
+        }
+        ]
+    }
+    </script>

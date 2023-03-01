@@ -1,0 +1,52 @@
+<script type="application/ld+json">
+    {
+        "@context":"http://schema.org",
+        "@type":"Event",
+        "name":"Boum Boum",
+        "startDate":"2023-01-01",
+        "location": {
+        "@type": "Place",
+        "name": "Paris"
+        },
+        "subEvent":[
+        {
+            "@type":"Event",
+            "name":"Boum Boum Friday Event",
+            "startDate":"2023-01-01",
+            "location": {
+            "@type": "Place",
+            "name": "Paris"
+            },
+            "eventSchedule":{
+            "@type":"Schedule",
+            "startDate":"2023-01-01",
+            "endDate":"2023-12-31",
+            "repeatFrequency":"P1W",
+            "byDay":"http://schema.org/Friday",
+            "startTime":"23:30",
+            "endTime":"06:00",
+            "scheduleTimezone":"EU/France"
+            }
+        },
+        {
+            "@type":"Event",
+            "name":"Boum Boum Saturday Event",
+            "startDate":"2023-01-01",
+            "location": {
+            "@type": "Place",
+            "name": "Paris"
+            },
+            "eventSchedule":{
+            "@type":"Schedule",
+            "startDate":"2023-01-01",
+            "endDate":"2023-12-31",
+            "repeatFrequency":"P1W",
+            "byDay":"http://schema.org/Saturday",
+            "startTime":"23:30",
+            "endTime":"06:00",
+            "scheduleTimezone":"EU/France"
+            }               
+        }
+        ]
+    }
+    </script>

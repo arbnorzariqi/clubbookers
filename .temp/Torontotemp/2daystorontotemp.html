@@ -1,0 +1,52 @@
+<script type="application/ld+json">
+    {
+        "@context":"http://schema.org",
+        "@type":"Event",
+        "name":"Century",
+        "startDate":"2023-01-01",
+        "location": {
+        "@type": "Place",
+        "name": "Toronto"
+        },
+        "subEvent":[
+        {
+            "@type":"Event",
+            "name":"Century Friday Event",
+            "startDate":"2023-01-01",
+            "location": {
+            "@type": "Place",
+            "name": "Toronto"
+            },
+            "eventSchedule":{
+            "@type":"Schedule",
+            "startDate":"2023-01-01",
+            "endDate":"2023-12-31",
+            "repeatFrequency":"P1W",
+            "byDay":"http://schema.org/Friday",
+            "startTime":"20:00",
+            "endTime":"02:00",
+            "scheduleTimezone":"CA/Toronto"
+            }
+        },
+        {
+            "@type":"Event",
+            "name":"Century Saturday Event",
+            "startDate":"2023-01-01",
+            "location": {
+            "@type": "Place",
+            "name": "Toronto"
+            },
+            "eventSchedule":{
+            "@type":"Schedule",
+            "startDate":"2023-01-01",
+            "endDate":"2023-12-31",
+            "repeatFrequency":"P1W",
+            "byDay":"http://schema.org/Saturday",
+            "startTime":"20:00",
+            "endTime":"02:00",
+            "scheduleTimezone":"CA/Toronto"
+            }               
+        }
+        ]
+    }
+    </script>
